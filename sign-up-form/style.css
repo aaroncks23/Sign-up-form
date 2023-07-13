@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+.image-container {
+    position: relative;
+    height: 100vh;
+    width: 500px;
+}
+
+#background-image {
+    width: 100%;
+    height: 100%;
+}
+
+.form-container {
+    flex: 2;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.image-sidebar {
+    position: absolute;
+    top: 20vh;
+    width: 100%;
+    height: 150px;
+    font-size: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#odin-logo {
+    width: 100px;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.image-credit {
+    position: absolute;
+    bottom: 1vh;
+    width: 100%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+a {
+    color: whitesmoke;
+}
